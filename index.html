@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootsrap</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- typography -->
+    <p class="h1">Testing</p>
+    <!-- Display classes -->
+    <p class="display-1">Display 1</p>
+    <p class="display-2">Display 2</p>
+    <p class="display-6">Display 6</p>
+    <p>
+      <span class="lead"
+        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+        exercitationem nulla quibusdam accusantium ut illo animi quas totam,
+        quod sequi?</span
+      >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quis
+      saepe dolores ratione doloribus repellendus ipsam pariatur earum
+      perspiciatis accusantium!
+    </p>
+
+    <!-- text allignment -->
+    <h1 class="display-2" text-start text-decoration-underline>Text start</h1>
+    <h1 class="display-2" text-center text-decoration-line-through>
+      Text Center
+    </h1>
+    <h1 class="display-3" text-end text-capitalize>Text End</h1>
+    <a href="#" text-decoration-none>This is a link</a>
+
+    <!-- text decoration, 
+colors  -->
+    <p class="h1 text-center text-primary bg-success">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-muted bg-muted">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-secondary bg-dark">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-info">Centered Primary color text</p>
+    <p class="h1 text-center text-success bg-secondary">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-danger bg-info">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-warning bg-muted">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-dark bg-warning">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-light bg-danger">
+      Centered Primary color text
+    </p>
+    <p class="h1 text-center text-white bg-primary">
+      Centered Primary color text
+    </p>
+
+    <!-- buttons (it must have a class of btn) -->
+
+    <!-- normal btn -->
+    <button class="btn btn-primary">Register</button>
+    <button class="btn btn-warning">Register</button>
+    <button class="btn btn-success">Register</button>
+    <button class="btn btn-dark">Register</button>
+    <button class="btn btn-info">Register</button>
+    <button class="btn btn-danger">Register</button> <br />
+    <br />
+
+    <!-- button sizes -->
+    <button class="btn btn-dark btn-lg">Large</button>
+    <button class="btn btn-primary btn-md">Default</button>
+    <button class="btn btn-danger btn-sm">Small</button> <br />
+    <br />
+
+    <!-- outline buttons -->
+    <button class="btn btn-outline-primary">Log in</button>
+    <button class="btn btn-outline-secondary">Log in</button>
+    <button class="btn btn-outline-danger">Log in</button>
+    <button class="btn btn-outline-info">Log in</button>
+    <button class="btn btn-outline-dark">Log in</button>
+    <button class="btn btn-outline-warning">Log in</button> <br />
+    <br />
+
+    <!-- anchor tags as buttons -->
+
+    <a href="#" class="btn btn-lg btn-success">Register with us</a>
+
+    <!-- line height-->
+
+    <p class="lh-lg">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+      error. Accusantium temporibus sequi nobis maxime maiores vitae rerum
+      aspernatur sapiente ullam, a voluptatum esse ipsa cumque veniam
+      praesentium fugit. Temporibus cum suscipit nam ex quo id deserunt tempore
+      provident repellat ad maxime voluptatem, esse nihil molestiae alias, est
+      perspiciatis cupiditate.
+    </p>
+
+    <!-- bootstrap utility classes (margin, padding, border shadow) -->
+    <!-- margins m{strength of 0-5}, t{top} b{bottom} e{end/right} s{start/left} my{up&down} mx{left&right}-->
+    <!-- Same for padding -->
+
+    <div class="bg-primary text-dark m-5 pt-5 pb-3">
+      <p class="display-6 text-center fst-italic text-uppercase">Hello</p>
+    </div>
+
+    <div class="bg-success m-auto text-center" style="width: 300px">Hello</div>
+    <br />
+
+    <!-- Border -->
+    <div
+      class="bg-white m-auto p-5 border border-3 border-danger my-5 rounded-4"
+      style="width: 200px; height: 200px"
+    >
+      Hello
+    </div>
+
+    <div class="bg-primary my-5 p-5 text-center rounded-pill"></div>
+
+    <img
+      src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+      alt=""
+      class="rounded-circle"
+      width="500"
+      height="500 "
+    />
+
+    <!-- Shadow -->
+
+    <div class="p-4 bg-light my-4 shadow-none">No Shadow</div>
+    <div class="p-4 bg-light my-4 shadow-sm">Small Shadow</div>
+    <div class="p-4 bg-light my-4 shadow">The default shadow</div>
+    <div class="p-4 bg-light my-4 shadow-lg">Large shadow</div>
+
+    <!-- BREAKPOINTS  -->
+    <!-- none sm md lg xl xxl -->
+    <!-- Container -->
+
+    <!-- Normal container -->
+    <div class="container bg-primary my-5 p-5 text-light text-center">Container</div>
+
+    <!-- Container fluid -->
+    <div class="container-fluid my-2 p-5 bg-danger"></div>
+
+    <!-- Responsive containers -->
+    <div class="bg-warning p-5 my-2 container-sm">
+      <h1>100% untill sm screen</h1>
+    </div>
+    <div class="bg-secondary p-5 my-2 container-md">
+      <h1>100% untill md screen</h1>
+    </div>
+
+    <div class="bg-info p-5 my-2 container-lg">
+      <h1>100% untill lg screen</h1>
+    </div>
+
+    <h1>Bootstrap grid system</h1>
+    <!-- container row col -->
+
+<div class="container-lg my-5"> 
+  <h3>Basic Grid</h3>
+<div class="row">
+<div class="col bg-primary p-5 ">Col 1</div>
+<div class="col bg-danger p-5 ">Col 2</div>
+<div class="col bg-success p-5 ">Col 3</div>
+</div>
+</div>
+
+<div class="container-lg my-5 border">
+  <h1 class="text-decoration-underline text-center">Col width</h1>
+  <div class="row">
+<div class="col-4 bg-secondary p-5">Col 1</div>
+<div class="col-6 bg-info p-5">Col 2</div>
+<div class="col-2 bg-danger p-5">Col 3</div>
+  </div>
+</div>
+
+<div class="container-lg my-5">
+  <h3>responsive col width</h3>
+  <div class="row">
+    <div class="col-sm-4 col-lg-6 bg-secondary p-5">Col 1</div>
+<div class="col-sm-4 col-lg-3 bg-info p-5">Col 2</div>
+<div class="col-sm-4 col-lg-3 bg-danger p-5">Col 3</div>
+  </div>
+</div>
+
+
+<div class="container-lg my-5">
+  <h3>Justifying columns</h3>
+  <div class="row justify-content-around">
+    <div class="col-md-3 p-5 bg-info" ></div>
+    <div class="col-md-3 p-5 bg-success" ></div>
+    <div class="col-md-3 p-5 bg-danger" ></div>
+  </div>
+</div>
+
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
